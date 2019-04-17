@@ -39,7 +39,7 @@ dnsmasq in a docker container, configurable via a [simple web UI](https://github
    	-e "HTTP_USER=foo" \
    	-e "HTTP_PASS=bar" \
    	--restart always \
-   	jpillora/dnsmasq
+   	eafxx/dnsmasq
    ```
 
 1. Visit `http://<docker-host>:5380`, authenticate with `foo/bar` and you should see
